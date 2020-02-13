@@ -17,10 +17,18 @@
                 </div>
             </div>
             <div id="playButton" class="row">
-                <div class="col">
+                <div class="col-md-6">
                     <button onclick="jogadaComputador();verifyWinner();"><h1>JOGAR</h1></button>
                 </div>
-                
+                <div style="text-align: center;" class="col-md-6">
+                    <div class="row">
+                        <h1><label for="placarJogador">Player1</label></h1>
+                        <h1><input id="placarPlayer" type="text" name="placarPlayer" readonly="readonly" value="0"></h1>
+                        <h1>X</h1>
+                        <h1><input id="placarComputer" type="text" name="placarComputer" readonly="readonly" value="0"></h1>
+                        <h1><label for="placarComputer">Computador</label></h1>
+                    </div>
+                </div>
             </div>
             <div id="campo" class="row">
                 <div id="player" class="col-md-6">
