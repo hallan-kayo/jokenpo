@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#opcoes{
+    background-color: gray;
+    text-align: center;
+}
+
+#playButton{
+    padding: 0px;
+    text-align: center;
+}
+
+#player{
+    background-color: rgb(93, 100, 100);
+    padding: 0px;
+    text-align: center;
+}
+
+#imagemPlayer, #imagemComputador{
+    width: 60%;
+    height: 400px;
+}
+
+#computer{
+    background-color: rgb(221, 221, 221);
+    padding: 0px;
+    text-align: center;
+}
