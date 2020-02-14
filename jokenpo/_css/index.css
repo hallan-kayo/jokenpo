@@ -26,7 +26,7 @@
 
 #imagemPlayer, #imagemComputador{
     width: 60%;
-    height: 400px;
+    height: 380px;
 }
 
 #computer{
@@ -39,18 +39,10 @@
     padding: 1%;
 }
 
-.img-fluid{
-    border-radius: 50px;
-    width: 30%;
-    height: 100%;
-    border: 0px;
-    padding: 0px;
-}
 #imagem{
     border-radius: 50px;
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 200px;
     border: 0px;
     padding: 0px;
-    text-align: center;
 }
