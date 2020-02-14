@@ -36,31 +36,46 @@ function verifyWinner(){
     if (document.getElementById("imagemPlayer").name == "pedra") {
 
         if (document.getElementById("imagemComputador").name == 'pedra') {
-            alert("empate")
+            // alert("empate")
+            setTimeout(function(){ alert("empate"); }, 250);
         } else if (document.getElementById("imagemComputador").name == 'papel') {
-            alert("vencedor: computador")
+            // alert("vencedor: computador")
+            setTimeout(function(){ alert("vencedor: computador"); }, 250);
+            document.getElementById("placarComputer").value++
         } else if (document.getElementById("imagemComputador").name == 'tesoura') {
-            alert("vencedor: player1")
+            // alert("vencedor: player1")
+            setTimeout(function(){ alert("vencedor: player1"); }, 250);
+            document.getElementById("placarPlayer").value++
         }
 
     } else if (document.getElementById("imagemPlayer").name == "papel") {
 
         if (document.getElementById("imagemComputador").name == 'pedra') {
-            alert("vencedor: player1")
+            // alert("vencedor: player1")
+            setTimeout(function(){ alert("vencedor:player1"); }, 250);
+            document.getElementById("placarPlayer").value++
         } else if (document.getElementById("imagemComputador").name == 'papel') {
-            alert('empate')
+            // alert('empate')
+            setTimeout(function(){ alert("empate"); }, 250);
         } else if (document.getElementById("imagemComputador").name == 'tesoura') {
-            alert("vencedor: computador")
+            // alert("vencedor: computador")
+            setTimeout(function(){ alert("vencedor:computador"); }, 250);
+            document.getElementById("placarComputer").value++
         }
 
     } else if (document.getElementById("imagemPlayer").name == "tesoura") {
 
         if (document.getElementById("imagemComputador").name == 'pedra') {
-            alert("vencedor: computador")
+            // alert("vencedor: computador")
+            setTimeout(function(){ alert("vencedor:computador"); }, 250);
+            document.getElementById("placarComputer").value++
         } else if (document.getElementById("imagemComputador").name == 'papel') {
-            alert("vencedor: player1")
+            // alert("vencedor: player1")
+            setTimeout(function(){ alert("vencedor:player1"); }, 250);
+            document.getElementById("placarPlayer").value++
         } else if (document.getElementById("imagemComputador").name == 'tesoura') {
-            alert("empate")
+            // alert("empate")
+            setTimeout(function(){ alert("empate"); }, 250);
         }
     }
 }
