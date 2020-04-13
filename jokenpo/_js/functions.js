@@ -31,7 +31,7 @@ function alterneImagemParaTesoura(){
 function verifyWinner(){
     if(document.getElementById("imagemPlayer").name == ""){
         alert("escolha uma opção válida")
-        document.getElementById("imagemComputador").src = ""
+        document.getElementById("imagemComputador").src = "_img/opcao.png"
     }
     if (document.getElementById("imagemPlayer").name == "pedra") {
 

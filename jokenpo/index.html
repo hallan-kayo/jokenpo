@@ -16,14 +16,15 @@
                     <h1><label id="nome" for="placarJogador">Player</label></h1>
                     <h1><label id="nome" for="placarComputer">Computador</label></h1>
                 </div>
-                <div id="placarValues" class="col-md-1">
+                <div id="placarValues" class="col-1">
                     <h1><input id="placarPlayer" type="text" name="placarPlayer" readonly="readonly" value="0"></h1>
                     <h1><input id="placarComputer" type="text" name="placarComputer" readonly="readonly" value="0"></h1>
                 </div>
-                <div id="jogada" class="col-md-8">
+                <div id="jogada" class="col-md-7">
                     <img id="imagem" onclick="alterneImagemParaPedra()" class="img-fluid" src="_img/pedra.png" alt="pedra">
                     <img id="imagem" onclick="alterneImagemParaPapel()" class="img-fluid" src="_img/papel.png" alt="papel">
-                    <img id="imagem" onclick="alterneImagemParaTesoura()" class="img-fluid" src="_img/tesoura.png" alt="tesoura">
+                    <img id="imagem" onclick="alterneImagemParaTesoura()" class="img-fluid" src="_img/tesoura.png" alt="tesoura" style="height: 65%;">
+                    <h1 style="font-size: 16pt;" class="font-italic">escolha sua próxima jogada</h1>
                 </div>
             </div>
             <div id="playButton" class="row">
@@ -36,7 +37,7 @@
                     <img class="img-flud" src="_img/opcao.png" id="imagemPlayer">
                 </div>
                 <div id="computer" class="col-md-6">
-                    <img class="img-fluid"id="imagemComputador" src="" alt="">
+                    <img class="img-fluid"id="imagemComputador" src="_img/opcao.png" alt="">
                 </div>
             </div>
         </div>

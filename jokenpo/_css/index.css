@@ -3,6 +3,8 @@
 #opcoes{
     background-color: rgb(2, 209, 71);
     text-align: center;
+    border-radius: 20px;
+    justify-content: center;
 }
 
 #playButton{
@@ -12,20 +14,19 @@
 
 #placarNames{
     text-align: left;
-    padding-left: 1%;
+    /* padding-left: 1%; */
     margin-top: 3%;
 }
 
 #placarValues{
     text-align: left;
-    padding-left: 2%;
     margin-top: 3%;
 }
 
 #nome{
     color: white;
     font-family: monospace;
-    font-size: 120%;
+    font-size: 120% auto;
 }
 
 #placarPlayer,#placarComputer{
@@ -37,41 +38,49 @@
 }
 
 #player{
-    background-color: rgb(93, 100, 100);
+    background-color: rgb(2, 209, 71);
     padding: 0px;
     text-align: center;
 }
 
 #imagemPlayer, #imagemComputador{
     width: 60%;
-    height: 380px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 #computer{
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(2, 209, 71);
     padding: 0px;
     text-align: center;
 }
 
 #jogada{
     padding: 1%;
-    text-align: end;
+    text-align: center;
+    justify-content: center;
 }
 
 #imagem{
-    border-radius: 50px;
-    width: 20%;
-    height: 200px;
+    border-radius: 30px;
+    width: 18%;
+    height: 18%px;
     border: 0px;
     padding: 0px;
 }
 
 #jogar{
+    color: white;
     font-family: monospace;
     font-style: italic;
     padding:0% 12% 0% 12%;
     margin: 3px;
-    border:2px solid black ;
+    border:2px solid black;
     border-radius: 50px;
     background-color: rgb(2, 209, 71);
 }
+
+
